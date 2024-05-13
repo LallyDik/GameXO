@@ -1,0 +1,77 @@
+@font-face {
+    font-family: infont;
+    src: url("../fonts/ploni-round-bold-aaa.otf");
+}
+body{
+	background-color: rgb(104, 132, 255);
+	background-image: linear-gradient(90deg, rgb(101, 103, 231) 0%,
+    rgb(252, 255, 104) 74%); 
+
+}
+
+h1{
+    font-size: 75px;
+    color: rgb(46, 49, 247);
+    text-align: center;
+    text-shadow:10px, 5px, 4px, 2px, black;
+    font-family: infont ;
+}
+h4{
+    font-size: 50px;
+    font-family: infont ;
+    color: rgb(249, 253, 0);
+    text-align: center;
+
+}
+.btn{
+    background-color: white;
+    background-image: url(../image/xo.png);
+   border: 0px;
+    width:340px;
+    height: 340px;
+    margin-left: 0%;
+    margin-right: 5%;
+    font-family: infont ;
+    font-size: 45px;
+    box-shadow: 0 0.9rem 1.7rem rgba(0, 0, 0, 0.25),
+		0 0.7rem 0.7rem rgba(0, 0, 0, 0.22);
+    border-radius: 2rem;
+
+}
+#option{
+    display: flex;
+    justify-content: space-around;
+    
+}
+h2{
+    text-align: center;
+    color: blue;
+    font-family:infont ;
+    font-size: 50px;
+    
+}
+.ot{
+    background-image: url(../image/cg.gif); 
+    background-size:cover;
+    margin: 0px;
+}
+
+.btnl{
+    background-color: rgb(25, 45, 255);
+	border-radius: 20px;
+	border: 0px solid rgb(112, 112, 112);
+	color:yellow;
+	cursor: pointer;
+	font-size: 0.8rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+	padding: 0.9rem 4rem;
+	text-transform: uppercase;
+	transition: transform 80ms ease-in;
+	font-family: infont;
+	font-size: 18px;
+    display: block;
+    text-decoration: none;
+    box-shadow:black 2px;
+    float: right;
+}

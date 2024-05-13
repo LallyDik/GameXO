@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>friend game</title>
+    <link rel="stylesheet" href="../css/game.css" />
+</head>
+
+<body id="bodygame">
+    <div class="time" id="minutes">00</div>
+    <div class="time" id="op">:</div>
+    <div class="time" id="seconds">00</div>
+    <p id="title">play with your friend</p>
+    <p id="ins">Instructions</p>
+    <div id="contain">
+        <p id="p">Rules for Tic-Tac-Toe
+            The game is played on a grid that's three squares by three squares.
+            You are X , your friend (or the computer in this case) is O. Players take turns putting their marks in
+            empty squares.
+            The first player to get three of her marks in a row
+            (up, down, across, or diagonally) is the winner.
+        </p>
+        <div id="border">
+            <div class="row1">
+                <button id="a1" class="b" onclick="clik('a1')"></button>
+                <button id="a2" class="b" onclick="clik('a2')"></button>
+                <button id="a3" class="b" onclick="clik('a3')"></button>
+            </div>
+            <div class="row2">
+                <button id="a4" class="b" onclick="clik('a4')"></button>
+                <button id="a5" class="b" onclick="clik('a5')"></button>
+                <button id="a6" class="b" onclick="clik('a6')"></button>
+            </div>
+            <div class="row3">
+                <button id="a7" class="b" onclick="clik('a7')"></button>
+                <button id="a8" class="b" onclick="clik('a8')"></button>
+                <button id="a9" class="b" onclick="clik('a9')"></button>
+            </div>
+        </div>
+        <div class="bt"><button class="btn" onclick="previousPage()">New game</button></div>
+    <button class="btn" onclick="menu()"> Back to menu</button>
+    </div>
+    
+    <script src="../js/game.js"></script>
+</body>
+
+
+</html>
